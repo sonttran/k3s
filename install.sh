@@ -556,7 +556,7 @@ for cmd in kubectl crictl ctr; do
     fi
 done
 
-rm -rf /etc/rancher/k3s
+#rm -rf /etc/rancher/k3s
 rm -rf /var/lib/rancher/k3s
 rm -rf /var/lib/kubelet
 rm -f ${BIN_DIR}/k3s
